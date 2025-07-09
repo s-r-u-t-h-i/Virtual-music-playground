@@ -9,7 +9,6 @@ Welcome to **Virtual Music Playground** – an interactive multi-instrument web 
 - 🖼️ Instrument-specific images and layouts
 - 💻 Responsive design
 - 🎨 Clean and modular UI
-- 🔊 Audio stops after 3 seconds to prevent overlap
 
 ## 🥁 Included Instruments
 -🥁 Drum Kit
