@@ -1,4 +1,4 @@
-# 🎶 Virtual Music Playground
+#  Virtual Music Playground
 
 Welcome to **Virtual Music Playground** – an interactive multi-instrument web app built using **HTML, CSS, and JavaScript**. Play drums, guitar, tabla, violin, and more with your **keyboard keys or mouse clicks**. Perfect for beginners learning JavaScript or anyone who loves combining code and creativity!
 
@@ -10,17 +10,14 @@ Welcome to **Virtual Music Playground** – an interactive multi-instrument web 
 - 💻 Responsive design
 - 🎨 Clean and modular UI
 
-## 🥁 Included Instruments
+## 🎶 Included Instruments
 -🥁 Drum Kit
 -🎸 Guitar
 -🎷 Saxophone
 -🪘 Tabla
 -🎻 Violin
--🎺 Trumpet
 -🎼 Piano
--🪗 Accordion
--🎤 Vocal Pads
--🧘 Bongo
+-🪘 Bongo
 
 ## 🛠️ Tech Stack
 
