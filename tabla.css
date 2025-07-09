@@ -1,0 +1,110 @@
+body {
+  text-align: center;
+  background-color: #fff8dc;
+  font-family: "Arvo", cursive;
+}
+
+h1 {
+  font-size: 4rem;
+  color: #5a3e36;
+  margin-top: 2rem;
+}
+
+footer {
+  margin-top: 4rem;
+  color: #555;
+}
+
+.set {
+  margin-top: 3rem;
+}
+
+.q {
+  background-image: url("images/tabla/tab1.jpeg");
+}
+.w {
+  background-image: url("images/tabla/tab2.jpeg");
+}
+.e {
+  background-image: url("images/tabla/tab3.jpeg");
+}
+.r {
+  background-image: url("images/tabla/tab4.jpeg");
+}
+.t {
+  background-image: url("images/tabla/tab5.jpeg");
+}
+.y {
+  background-image: url("images/tabla/tab6.jpeg");
+}
+
+.key {
+  outline: none;
+  border: 8px solid #b5651d;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: transparent;
+  text-shadow:none;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: #f4a261;
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+}
+
+.key.pressed {
+  box-shadow: 0 3px 4px 0 #e76f51;
+  opacity: 0.5;
+}
+
+.set {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.note-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.note-block p {
+  margin-top: 0.5rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #5a3e36;
+}
+
+
+.key {
+  position: relative;
+}
+
+.key-label {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #5a3e36; 
+  background: #fff;
+  width: 1.6em;
+  height: 1.6em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 2;
+  box-shadow: 0 1px 3px rgba(90,62,54,0.10);
+}
+

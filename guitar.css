@@ -1,0 +1,98 @@
+body {
+  text-align: center;
+  background-color: #222;
+  color: #fff;
+  font-family: "Arvo", cursive;
+}
+
+h1 {
+  font-size: 4rem;
+  margin-top: 2rem;
+}
+
+footer {
+  margin-top: 4rem;
+  color: #ccc;
+}
+
+.set {
+  margin-top: 3rem;
+}
+
+.a {
+  background-image: url("images/guitar/acoustic.jpeg");
+}
+.s {
+  background-image: url("images/guitar/bass.jpeg");
+}
+.d {
+  background-image: url("images/guitar/electric.jpeg");
+}
+.f {
+  background-image: url("images/guitar/ukule.jpeg");
+}
+
+.chord {
+  outline: none;
+  border: 8px solid #386641;
+  font-size: 2.5rem;
+  font-family: "Arvo", cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: transparent; 
+  text-shadow: none;
+  border-radius: 15px;
+  display: inline-block;
+  width: 170px;
+  height: 170px;
+  text-align: center;
+  margin: 10px;
+  background-size: cover;
+  background-position: center;
+  background-color: #6a994e;
+  cursor: pointer;
+  position: relative; 
+}
+
+.chord-label {
+  position: absolute;
+  top: 12px;
+  right: 16px;
+  left: auto;
+  transform: none;
+  font-size: 2.2rem;
+  font-weight: bold;
+  color: #386641;       
+  background: none;      
+  padding: 0;
+  border-radius: 0;
+  pointer-events: none;
+  z-index: 2;
+  box-shadow: none;
+}
+
+.chord.pressed {
+  box-shadow: 0 3px 4px 0 #a7c957;
+  opacity: 0.5;
+}
+
+.set {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+}
+
+.chord-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.chord-block p {
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+  color: #ddd;
+  font-weight: bold;
+}

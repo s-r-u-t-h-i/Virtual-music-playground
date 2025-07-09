@@ -1,0 +1,61 @@
+body {
+  text-align: center;
+  background: #fffacd;
+  font-family: "Arvo", cursive;
+}
+h1 {
+  font-size: 4rem;
+  color: #daa520;
+}
+.bongo {
+  margin-top: 3rem;
+}
+.z {
+  background-image: url("images/bongo/left.jpg");
+}
+.x {
+  background-image: url("images/bongo/right.jpeg");
+}
+.pad {
+  padding: 20px 30px;
+  margin: 10px;
+  width: 250px;
+  height: 200px;
+  background-color: #ffd700;
+  background-size: cover;
+  background-position: center;
+  border: 10px solid darkgoldenrod;
+  font-size: 1.5rem;
+  border-radius: 8px;
+  cursor: pointer;
+  color: black;
+  text-shadow: 2px 2px 4px #8b4513;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  font-family: "Arvo", cursive;
+}
+.pad.pressed {
+  background-color: #ff8c00;
+}
+
+.bongo {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 3rem;
+}
+
+.bongo-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bongo-button p {
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+  color: #967405;
+  font-weight: bold;
+}

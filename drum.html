@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Drum Kit</title>
+  <link rel="stylesheet" href="./drum.css">
+  <style>
+    .drum-block {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 10px;
+    }
+
+    .label {
+      margin-top: 8px;
+      color: #DBEDF3;
+      font-size: 1rem;
+      font-weight: bold;
+      text-shadow: 1px 1px #000;
+    }
+
+    .set {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+  </style>
+</head>
+<body>
+ <h1>Drum Kit</h1>
+
+  <!-- First Row -->
+  <div class="drum-row">
+    <div class="drum-block">
+      <button class="w drum">w</button>
+      <p class="label">Tom 1</p>
+    </div>
+    <div class="drum-block">
+      <button class="a drum">a</button>
+      <p class="label">Tom 2</p>
+    </div>
+    <div class="drum-block">
+      <button class="s drum">s</button>
+      <p class="label">Tom 3</p>
+    </div>
+    <div class="drum-block">
+      <button class="d drum">d</button>
+      <p class="label">Tom 4</p>
+    </div>
+  </div>
+
+  <div class="drum-row">
+    <div class="drum-block">
+      <button class="j drum">j</button>
+      <p class="label">Snare</p>
+    </div>
+    <div class="drum-block">
+      <button class="k drum">k</button>
+      <p class="label">Crash</p>
+    </div>
+    <div class="drum-block">
+      <button class="l drum">l</button>
+      <p class="label">Kick</p>
+    </div>
+  </div>
+
+s  <script src="./scripts/drum.js"></script>
+</body>
+</html>
