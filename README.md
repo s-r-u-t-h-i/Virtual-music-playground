@@ -11,13 +11,13 @@ Welcome to **Virtual Music Playground** – an interactive multi-instrument web 
 - 🎨 Clean and modular UI
 
 ## 🎶 Included Instruments
--🥁 Drum Kit
--🎸 Guitar
--🎷 Saxophone
--🪘 Tabla
--🎻 Violin
--🎼 Piano
--🪘 Bongo
+- 🥁 Drum Kit
+- 🎸 Guitar
+- 🎷 Saxophone
+- 🪘 Tabla
+- 🎻 Violin
+- 🎼 Piano
+- 🪘 Bongo
 
 ## 🛠️ Tech Stack
 
